@@ -20,18 +20,34 @@ h1{
     background-color: whitesmoke;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 50px rgba(41, 104, 185, 0.5);
+}
+
 .container {
     display: flex;
     flex-direction: column;
     gap: 30px;
     height: 500px;
-    width: 500px;
+    width: 600px;
     padding: 30px;
 }
 
 #student-registration{
  background-color: cornflowerblue;
 }
+
+#select-student{
+    background-color: white;
+}
+
 form{
     height: 80%;
     display: flex;
@@ -77,4 +93,8 @@ form label[for="course"]{
 
 .search-by-grp{
     padding: 20px;
+}
+
+.placeholder{
+    color: gray;
 }
