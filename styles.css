@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-h1{
+#student-registration-title {
     padding: 10px 0px;
     text-align: center;
     border-radius: 30px;
@@ -40,15 +40,15 @@ h1{
     padding: 30px;
 }
 
-#student-registration{
- background-color: cornflowerblue;
+#student-registration {
+    background-color: cornflowerblue;
 }
 
-#select-student{
+#select-student {
     background-color: white;
 }
 
-form{
+form {
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -58,28 +58,28 @@ form{
     background-color: aliceblue;
 }
 
-form label[for="student-id"], 
+form label[for="student-id"],
 form label[for="last-name"],
 form label[for="first-name"],
 form label[for="sex"],
-form label[for="course"]{
+form label[for="course"] {
     display: inline-block;
     width: 100px;
     text-align: right;
 }
 
-#modality{
+#modality {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.btn-group{
+.btn-group {
     display: flex;
     justify-content: space-evenly;
 }
 
-.btn{
+.btn {
     width: 70px;
     height: 30px;
     border-radius: 30px;
@@ -87,14 +87,53 @@ form label[for="course"]{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: coral;
 }
 
-.search-by-grp{
+.search-by-grp {
     padding: 20px;
 }
 
-.placeholder{
+.placeholder {
     color: gray;
+}
+
+.search-result-grp {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 10px;
+    height: 80%;
+}
+
+.student-card{
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#student-name {
+    text-align: left;
+    font-size: 100%;
+}
+
+button {
+    text-align: left;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: burlywood;
+}
+
+.message {
+    color: green;
+    font-style: italic;
+}
+
+.modality-choices {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
