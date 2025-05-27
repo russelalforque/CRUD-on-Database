@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+}
+
+#student-registration{
+ background-color: cornflowerblue;
+}
+form{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 20px;
+    background-color: aliceblue;
+}
+
+form label[for="student-id"], 
+form label[for="last-name"],
+form label[for="first-name"],
+form label[for="sex"],
+form label[for="course"]{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#modality{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: coral;
+}
+
+.search-by-grp{
+    padding: 20px;
+}
