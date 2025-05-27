@@ -1,0 +1,10 @@
+USE russ_practice;
+
+CREATE TABLE student(
+	student_id int primary key AUTO_INCREMENT,
+    lname varchar(45),
+    fname varchar(45),
+    sex ENUM('Male','Female'),
+    course varchar(90),
+    preferred_modality enum('Online','Face-to-Face','Hybrid')
+);
